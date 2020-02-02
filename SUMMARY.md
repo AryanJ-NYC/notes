@@ -22,3 +22,7 @@
 * [Basics](docker/basic-commands.md)
 * [Dockerfile](docker/dockerfile.md)
 
+## Django
+
+* [Basic Commands](django/basic-commands.md)
+
