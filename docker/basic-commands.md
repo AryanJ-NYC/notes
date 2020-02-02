@@ -1,4 +1,4 @@
-# Basic Commands
+# Basics
 
 ## Pull an Image or Repository
 
@@ -67,5 +67,13 @@ docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 
 #e.g.
 docker tag hello-world aws_account_id.dkr.ecr.us-east-1.amazonaws.com/hello-world
+```
+
+## Data Volume
+
+Data volumes expose files on your host machine to the container.
+
+```bash
+ docker run -d -p 80:80 -v /my-files:/usr/local/apache2/htdocs web-server:1.1
 ```
 

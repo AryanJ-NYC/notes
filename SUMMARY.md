@@ -2,11 +2,6 @@
 
 * [Notes](README.md)
 
-## AWS
-
-* [EC2](aws/ec2.md)
-* [VPC](aws/vpc.md)
-
 ## Angular
 
 * [Template-Driven Forms](angular/template-driven-forms.md)
@@ -17,8 +12,13 @@
 * [Directives](angular/directives.md)
 * [Component Communication](angular/component-communication.md)
 
+## AWS
+
+* [EC2](aws/ec2.md)
+* [VPC](aws/vpc.md)
+
 ## Docker
 
-* [Basic Commands](docker/basic-commands.md)
+* [Basics](docker/basic-commands.md)
 * [Dockerfile](docker/dockerfile.md)
 
