@@ -17,12 +17,12 @@
 * [EC2](aws/ec2.md)
 * [VPC](aws/vpc.md)
 
+## Django
+
+* [Basic Commands](django/basic-commands.md)
+
 ## Docker
 
 * [Basics](docker/basic-commands.md)
 * [Dockerfile](docker/dockerfile.md)
-
-## Django
-
-* [Basic Commands](django/basic-commands.md)
 
