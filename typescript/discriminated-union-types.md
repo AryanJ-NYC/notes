@@ -11,23 +11,19 @@ description: >-
 ```typescript
 type Dog = {
   name: number;
-  barks: true;
-  meows: false
+  noise: 'bark'
 }
 
 type Cat = {
   name: string
-  barks: false
-  meows: true
+  noise: 'meow'
 }
 
 const someFunctionThatUsesCatOrDog = (animal: Cat | Dog) => {
-  if (typeof animal.name === 'number') {
-    animal.barks // type boolean when you would think it's true
-    animal.meows // type boolean when you would think it's false
+  if (typeof animal.name === 'string') {
+      animal.noise // type 'bark' | 'meow' when you would think it's 'bark'
   }
 }
-
 ```
 {% endtab %}
 
@@ -36,21 +32,18 @@ const someFunctionThatUsesCatOrDog = (animal: Cat | Dog) => {
 type Dog = {
   type: 'dog'
   name: number;
-  barks: true;
-  meows: false
+  noise: 'bark'
 }
 
 type Cat = {
   type: 'cat'
   name: string
-  barks: false
-  meows: true
+  noise: 'meow'
 }
 
 const someFunctionThatUsesCatOrDog = (animal: Cat | Dog) => {
   if (animal.type === 'dog') {
-    animal.barks // type is true
-    animal.meows // type is false
+    animal.noise // type is 'bark'
   }
 }
 ```
