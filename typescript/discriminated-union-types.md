@@ -21,7 +21,7 @@ type Cat = {
 
 const someFunctionThatUsesCatOrDog = (animal: Cat | Dog) => {
   if (typeof animal.name === 'string') {
-      animal.noise // type 'bark' | 'meow' when you would think it's 'bark'
+      animal.noise // type 'bark' | 'meow' when you would think it's 'meow'
   }
 }
 ```
