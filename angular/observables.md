@@ -1,8 +1,6 @@
 # Observables
 
-## Observables
-
-### Creation
+## Creation
 
 ```javascript
 import { Component, OnInit } from '@angular/core';
@@ -40,7 +38,7 @@ export class HomeComponent implements OnInit {
 }
 ```
 
-### Subject
+## Subject
 
 `Subject`s are `Observer`s and `Observable`s at the same time.  
 Good practice to use `Subject` _instead_ of `EventEmitter`

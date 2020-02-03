@@ -1,14 +1,6 @@
 # Template-Driven Forms
 
-{% tabs %}
-{% tab title="form.component.html" %}
-`ngModel` can be **unbound**, **one-way bound** or **two-way bound**:
-
-* **unbound** if we want access to data onSubmit \(makes it a control\)
-* **one-way bound** if we want to provide data to the template via TypeScript code
-* **two-way bound** if we want to capture each keystroke
-
-We can use data in groups by providing `reference_name=reference_type`. Some examples include lines 5, 20, 26
+### HTML
 
 ```javascript
 <div class="container">
@@ -63,10 +55,18 @@ We can use data in groups by providing `reference_name=reference_type`. Some exa
   </div>
 </div>
 ```
-{% endtab %}
 
-{% tab title="form.component.ts" %}
-```typescript
+`ngModel` can be **unbound**, **one-way bound** or **two-way bound**:
+
+* **unbound** if we want access to data onSubmit \(makes it a control\)
+* **one-way bound** if we want to provide data to the template via TypeScript code
+* **two-way bound** if we want to capture each keystroke
+
+We can use data in groups by providing `reference_name=reference_type`. Some examples include lines 5, 20, 26
+
+### JavaScript
+
+```javascript
 import { Component, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
@@ -110,8 +110,6 @@ export class AppComponent {
   }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
 
 

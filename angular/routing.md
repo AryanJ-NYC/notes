@@ -63,7 +63,7 @@ Can pass params via link or programmatically:
 
 {% tabs %}
 {% tab title="html" %}
-```yaml
+```markup
 <a
   [routerLink]="['/servers', 5, 'edit']"
   [queryParams]="{ allowEdit: '1' }"
