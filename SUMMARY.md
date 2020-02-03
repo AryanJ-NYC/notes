@@ -51,3 +51,7 @@
 
 * [Neural Network Basics](tensorflow/neural-network-basics.md)
 
+## TypeScript
+
+* [Discriminated Union Types](typescript/discriminated-union-types.md)
+
