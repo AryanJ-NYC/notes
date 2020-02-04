@@ -1,58 +1,35 @@
 # Table of contents
 
 * [Notes](README.md)
-
-## Angular
-
-* [Template-Driven Forms](angular/template-driven-forms.md)
-* [Reactive Forms](angular/reactive-forms.md)
-* [Observables](angular/observables.md)
-* [Routing](angular/routing.md)
-* [Services](angular/services.md)
-* [Directives](angular/directives.md)
-* [Component Communication](angular/component-communication.md)
-
-## AWS
-
-* [EC2](aws/ec2.md)
-* [VPC](aws/vpc.md)
-
-## Django
-
-* [Basic Commands](django/basic-commands.md)
-
-## Docker
-
-* [Basics](docker/basic-commands.md)
-* [Dockerfile](docker/dockerfile.md)
-
-## Keras
-
-* [Basics](keras/basics.md)
-* [Models](keras/models.md)
-
-## Matlab
-
-* [Matrix Manipulation](matlab/matrix-manipulation.md)
-
-## OpenCV
-
-* [Basics](opencv/basics.md)
-* [Template Matching](opencv/template-matching.md)
-* [Sobel Operator](opencv/sobel-operator.md)
-* [Camera Calibration](opencv/camera-calibration.md)
-
-## Spring Boot
-
-* [Rest APIs](spring-boot/rest-apis.md)
-* [Service](spring-boot/service.md)
-
-## Tensorflow
-
-* [Neural Network Basics](tensorflow/neural-network-basics.md)
-
-## TypeScript
-
-* [Type Hierarchy](typescript/type-hierarchy.md)
-* [Discriminated Union Types](typescript/discriminated-union-types.md)
+* [Angular](angular-1/README.md)
+  * [Services](angular-1/services.md)
+  * [Directives](angular-1/directives.md)
+  * [Component Communication](angular-1/component-communication.md)
+  * [Routing](angular-1/routing.md)
+  * [Observables](angular-1/observables.md)
+  * [Reactive Forms](angular-1/reactive-forms.md)
+  * [Template-Driven Forms](angular-1/template-driven-forms.md)
+* [AWS](aws-1/README.md)
+  * [EC2](aws-1/ec2.md)
+  * [VPC](aws-1/vpc.md)
+* [Django](django-1.md)
+* [Docker](docker/README.md)
+  * [Dockerfile](docker/dockerfile.md)
+* [Keras](keras-1/README.md)
+  * [Models](keras-1/models.md)
+* [Matlab](matlab/README.md)
+  * [Matrix Manipulation](matlab/matrix-manipulation.md)
+* [OpenCV](open-cv/README.md)
+  * [Template Matching](open-cv/template-matching.md)
+  * [Sobel Operator](open-cv/sobel-operator.md)
+  * [Camera Calibration](open-cv/camera-calibration.md)
+* [Spring Boot](spring-boot/README.md)
+  * [Service](spring-boot/service.md)
+  * [Rest APIs](spring-boot/rest-apis.md)
+* [Tensorflow](tensorflow/README.md)
+  * [Neural Network Basics](tensorflow/neural-network-basics.md)
+* [TypeScript](typescript-1/README.md)
+  * [Discriminated Union Types](typescript-1/discriminated-union-types.md)
+  * [Type Hierarchy](typescript-1/type-hierarchy.md)
+* [Career](career.md)
 

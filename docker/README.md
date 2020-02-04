@@ -1,4 +1,4 @@
-# Basics
+# Docker
 
 ## Pull an Image or Repository
 
