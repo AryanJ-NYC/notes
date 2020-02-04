@@ -53,5 +53,6 @@
 
 ## TypeScript
 
+* [Type Hierarchy](typescript/type-hierarchy.md)
 * [Discriminated Union Types](typescript/discriminated-union-types.md)
 
