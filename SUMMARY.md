@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Notes](README.md)
+* [Android](android.md)
 * [Angular](angular/README.md)
   * [Services](angular/services.md)
   * [Directives](angular/directives.md)
@@ -32,5 +33,4 @@
   * [Discriminated Union Types](typescript/discriminated-union-types.md)
   * [Type Hierarchy](typescript/type-hierarchy.md)
 * [Career](career.md)
-* [Android](android.md)
 
