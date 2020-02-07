@@ -55,3 +55,27 @@ function fancyDate(this: Date) {
 }
 ```
 
+### Overloading
+
+An overloaded function is a function with multiple signatures. Imagine a function, `reserve` that can book one-way and round trips:
+
+```typescript
+type Reserve = {
+  (from: Date, to: Date, destination: string): Reservation
+  (from: Date, destination: string)
+}
+
+const reserve: Reserve = (
+  from: Date,
+  toOrDestination: Date | string,
+  destination?: string
+) => {
+  // we'll need to 'prove' to TypeScript the types of each parameter
+  if (toOrDestination instanceof Date && destination !== undefined) {
+    // book a one-way trip
+  } else if (typeof toOrDestination === 'string') {
+    // book a round trip
+  }
+}
+```
+
