@@ -47,3 +47,11 @@ function sumVariadicSafe(...numbers: number[]) {
 {% endtab %}
 {% endtabs %}
 
+### Typing This
+
+```typescript
+function fancyDate(this: Date) {
+  return `${this.getDate()}/${this.getMonth()}/${this.getFullYear()}`;
+}
+```
+
