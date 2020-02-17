@@ -1,12 +1,8 @@
 # Rust
 
-## Getting Started
+## Rustup
 
-{% embed url="https://doc.rust-lang.org/book/" caption="The Rust Programming Language Book" %}
-
-### Rustup
-
-#### Installation
+### Installation
 
 `rustup` is a CLI for managing Rust versions and associated tools. Run command displayed at [https://rustup.rs/](https://rustup.rs/). As of February 16, 2019, that is:
 
@@ -14,17 +10,17 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-#### Tab Completion
+### Tab Completion
 
 {% embed url="https://github.com/rust-lang/rustup\#enable-tab-completion-for-bash-fish-zsh-or-powershell" caption="Tab Completion for Rustup" %}
 
-#### Uninstall
+### Uninstall
 
 ```bash
 rustup self uninstall
 ```
 
-#### Rust Offline Documentation
+### Rust Offline Documentation
 
 ```bash
 rustup doc
