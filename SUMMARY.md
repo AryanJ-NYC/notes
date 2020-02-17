@@ -28,6 +28,7 @@
   * [Hello, World!](rust/hello-world.md)
   * [Cargo](rust/cargo.md)
   * [Programming a Guessing Game](rust/programming-a-guessing-game.md)
+  * [Ownership](rust/ownership.md)
 * [Spring Boot](spring-boot/README.md)
   * [Service](spring-boot/service.md)
   * [Rest APIs](spring-boot/rest-apis.md)
