@@ -18,7 +18,7 @@ fn calculate_length(s: &String) -> usize { // s is a reference to a String
   // it refers to, nothing happens.
 ```
 
-![\`&amp;String s\` pointing at \`String s1\`](../../.gitbook/assets/image%20%286%29.png)
+![\`&amp;String s\` pointing at \`String s1\`](../../.gitbook/assets/image.png)
 
 ## Mutable References
 

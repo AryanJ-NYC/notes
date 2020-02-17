@@ -72,7 +72,7 @@ fn main() {
 }
 ```
 
-![Representation in memory after s1 has been invalidated](../../.gitbook/assets/image%20%285%29.png)
+![Representation in memory after s1 has been invalidated](../../.gitbook/assets/image%20%287%29.png)
 
 #### Clone
 

@@ -30,6 +30,8 @@
   * [Programming a Guessing Game](rust/programming-a-guessing-game.md)
   * [Ownership](rust/ownership/README.md)
     * [References and Borrowing](rust/ownership/references-and-borrowing.md)
+    * [The Slice Type](rust/ownership/the-slice-type.md)
+  * [Structs](rust/structs.md)
 * [Spring Boot](spring-boot/README.md)
   * [Service](spring-boot/service.md)
   * [Rest APIs](spring-boot/rest-apis.md)
