@@ -24,6 +24,7 @@
   * [Template Matching](open-cv/template-matching.md)
   * [Sobel Operator](open-cv/sobel-operator.md)
   * [Camera Calibration](open-cv/camera-calibration.md)
+* [Rust](rust.md)
 * [Spring Boot](spring-boot/README.md)
   * [Service](spring-boot/service.md)
   * [Rest APIs](spring-boot/rest-apis.md)
