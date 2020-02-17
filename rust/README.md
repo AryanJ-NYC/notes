@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+{% embed url="https://doc.rust-lang.org/book/" caption="The Rust Programming Language Book" %}
+
 ### Rustup
 
 #### Installation
