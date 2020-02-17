@@ -26,6 +26,7 @@
   * [Camera Calibration](open-cv/camera-calibration.md)
 * [Rust](rust/README.md)
   * [Hello, World!](rust/hello-world.md)
+  * [Cargo](rust/cargo.md)
 * [Spring Boot](spring-boot/README.md)
   * [Service](spring-boot/service.md)
   * [Rest APIs](spring-boot/rest-apis.md)
