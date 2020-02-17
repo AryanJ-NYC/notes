@@ -17,5 +17,23 @@ enum Option<T> {
 }
 ```
 
-Not having to worry about incorrectly assuming a not-null value helps you to be more confident in your code. In order to have a value that can possibly be null, you must explicitly opt in by making the type of that value `Option<T>`. Then, when you use that value, you are required to explicitly handle the case when the value is null. Everywhere that a value has a type that isn’t an `Option<T>`, you _can_ safely assume that the value isn’t null. This was a deliberate design decision for Rust to limit null’s pervasiveness and increase the safety of Rust code. 
+Not having to worry about incorrectly assuming a not-null value helps you to be more confident in your code. In order to have a value that can possibly be null, you must explicitly opt in by making the type of that value `Option<T>`. Then, when you use that value, you are required to explicitly handle the case when the value is null. Everywhere that a value has a type that isn’t an `Option<T>`, you _can_ safely assume that the value isn’t null. This was a deliberate design decision for Rust to limit null’s pervasiveness and increase the safety of Rust code.
+
+```rust
+fn print_x_y(x: i32, y: Option<i32>) {
+    match y {
+        Some(v) => println!("{} + {} = {}", x, v, x + v),
+        None => println!("y has None value"),
+    }
+}
+
+fn main() {
+    let x = 5;
+    let mut y = Some(5);
+    print_x_y(x, y); // 5 + 5 = 10
+
+    y = None;
+    print_x_y(x, y); // y has None value
+}
+```
 
