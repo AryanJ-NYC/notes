@@ -34,6 +34,7 @@
   * [Structs](rust/structs.md)
   * [Enumerations](rust/enumerations/README.md)
     * [The Option Enum](rust/enumerations/the-option-enum.md)
+  * [Project Management with Packages, Crates and Modules](rust/project-management-with-packages-crates-and-modules.md)
   * [Resources](rust/resources.md)
 * [Spring Boot](spring-boot/README.md)
   * [Service](spring-boot/service.md)
