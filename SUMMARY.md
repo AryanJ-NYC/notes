@@ -11,6 +11,7 @@
   * [Reactive Forms](angular/reactive-forms.md)
   * [Template-Driven Forms](angular/template-driven-forms.md)
 * [AWS](aws/README.md)
+  * [VPC](aws/vpc-1.md)
   * [ECS](aws/ecs.md)
   * [EC2](aws/ec2.md)
   * [VPC](aws/vpc.md)
