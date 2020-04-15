@@ -1,3 +1,7 @@
+---
+description: 'https://devopswithdocker.com/'
+---
+
 # Docker
 
 ## Pull an Image or Repository
@@ -13,6 +17,15 @@ docker build -t <container-name> <path>
 
 #e.g.
 docker build -t smuush .
+```
+
+## [Tag](https://docs.docker.com/engine/reference/commandline/tag/) Images
+
+```bash
+docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+
+#e.g.
+docker tag hello-world aws_account_id.dkr.ecr.us-east-1.amazonaws.com/hello-world
 ```
 
 ## Share Image
@@ -39,7 +52,7 @@ docker container run -p 9999:80 httpd:2.4
 
 ## Attaching a Shell to a Container
 
-The `-i` and `-t` flags can be passed to the `exec` command to keep an interactive shell open and the shell you want to attach is specified after the container ID.
+The `-i` and `-t` flags can be passed to the `exec` command to keep an interactive shell open. The shell you want to attach is specified after the container ID.
 
 ```bash
  docker container exec -it <container_name> /bin/bash
@@ -58,15 +71,6 @@ The `-i` and `-t` flags can be passed to the `exec` command to keep an interacti
 
 ```bash
 docker image ls
-```
-
-## [Tag](https://docs.docker.com/engine/reference/commandline/tag/) Images
-
-```bash
-docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
-
-#e.g.
-docker tag hello-world aws_account_id.dkr.ecr.us-east-1.amazonaws.com/hello-world
 ```
 
 ## Data Volume
