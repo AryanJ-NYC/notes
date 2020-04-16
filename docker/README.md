@@ -75,7 +75,7 @@ docker image ls
 
 ## Data Volume
 
-Data volumes expose files on your host machine to the container.
+Data volumes expose files on your host machine to the container. They are simply a folder \(or a file\) that is shared between the host machine and the container.
 
 ```bash
  docker run -d -p 80:80 -v /my-files:/usr/local/apache2/htdocs web-server:1.1
