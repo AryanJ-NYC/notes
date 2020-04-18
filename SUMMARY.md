@@ -19,6 +19,8 @@
   * [Dockerfile](docker/dockerfile.md)
 * [Keras](keras/README.md)
   * [Models](keras/models.md)
+* [Kubernetes](kubernetes/README.md)
+  * [Architecture](kubernetes/architecture.md)
 * [Matlab](matlab/README.md)
   * [Matrix Manipulation](matlab/matrix-manipulation.md)
 * [OpenCV](open-cv/README.md)
@@ -46,6 +48,4 @@
   * [Discriminated Union Types](typescript/discriminated-union-types.md)
   * [Type Hierarchy](typescript/type-hierarchy.md)
 * [Career](career.md)
-* [Kubernetes](kubernetes/README.md)
-  * [Architecture](kubernetes/architecture.md)
 

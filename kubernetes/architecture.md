@@ -31,3 +31,10 @@ At a high level, Kubernetes has the following main components:
 * decisions are made based on the current Kubernetes cluster state and the new object's requirements
 * the resource usage data and new object's requirements are received from the API server \(which fetches it from etcd\)
 
+#### Controller Managers
+
+* the **controller managers** are control plane components on the master node running controllers to regulate the state of the Kubernetes cluster
+* they compare the cluster's desired state \(given the objects' configuration data\) with its current state \(obtained from etcd data store via API server\)
+* the **kube-controller-manager** runs controllers responsible to act when nodes become unavailable
+* the **cloud-controller-manager** runs controllers responsible to interact with the underlying infrastructure of a cloud provider when nodes become unavailable, to manage storage volumes provided by a cloud service and to manage load balancing and routing 
+
