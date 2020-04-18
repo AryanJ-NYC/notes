@@ -21,6 +21,8 @@
   * [Models](keras/models.md)
 * [Kubernetes](kubernetes/README.md)
   * [Architecture](kubernetes/architecture.md)
+  * [Kubernetes for Full-Stack Developers](https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers)
+  * [Introduction to Kubernetes](https://www.edx.org/course/introduction-to-kubernetes)
 * [Matlab](matlab/README.md)
   * [Matrix Manipulation](matlab/matrix-manipulation.md)
 * [OpenCV](open-cv/README.md)
