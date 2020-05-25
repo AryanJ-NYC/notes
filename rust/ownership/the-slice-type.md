@@ -9,5 +9,5 @@ let hello = &s[0..5];
 let world = &s[6..11];
 ```
 
-![String slice referring to part of a String](../../.gitbook/assets/image%20%2811%29.png)
+![String slice referring to part of a String](../../.gitbook/assets/image%20%288%29.png)
 
